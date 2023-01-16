@@ -1,0 +1,84 @@
+/* Custom Fonts*/
+/* Titles 1*/
+@font-face {
+    font-family: Silkscreen;
+    src: url('../assets/font/Silkscreen/Silkscreen-Bold.ttf');
+  }
+  
+@font-face {
+    font-family: Silkscreen;
+    src: url('../assets/font/Silkscreen/Silkscreen-Regular.ttf');
+}
+  
+  /* Titles 2*/
+@font-face {
+    font-family: Goldman;
+    src: url(../assets/font/Goldman/Goldman-Bold.ttf);
+}
+  
+@font-face {
+    font-family: Goldman;
+    src: url(../assets/font/Goldman/Goldman-Regular.ttf);
+}
+/* Titles 3*/
+@font-face {
+    font-family: Mako;
+    src: url(../assets/font/Mako/Mako-Regular.ttf);
+}
+  
+/* General CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+  
+:root{
+  --color-blue:rgb(97, 242, 245);
+  --color-white: rgb(255, 255, 255);
+  --color-gray: rgb(224, 224, 224);
+  --color-purple: rgb(114, 56, 129);
+}
+  
+.dark{
+  background-color: black;
+  color: var(--color-blue);  
+  background-image: url(../assets/img/universe.jpg);
+}
+  
+.light{
+  background-color: var(--color-blue);
+  color: var(--color-purple);
+  background-image: url(../assets/img/cloud.jpg);
+}
+  
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75;
+}
+  
+body{
+  background-color: var(--color-blue);
+  color: var(--color-purple);
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Goldman';
+}
+  
+  /* Header*/
+  h1{
+    margin: 15px;
+  }
+
+/* ========================= NAVBAR ================== */
+  
+.Logo{
+  color: var(--color-purple);
+}
+
+/* ========================= NAVBAR ================== */

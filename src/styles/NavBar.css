@@ -1,0 +1,149 @@
+.Logo{
+    font-size: 50px;
+}
+
+nav.navbar .me-auto{
+    text-align: center;
+}
+
+nav.navbar{
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32 ease-in-out;
+}
+
+nav.navbar.scrolled-light{
+    padding: 0px 0px;
+    background-image: url(../assets/img/cloud.jpg);
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+nav.navbar.scrolled-dark{
+    padding: 0px 0px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 1px rgb(224, 224, 224);
+}
+
+nav.navbar a.navbar-brand{
+    width: 9%;
+}
+
+/* ========================= LINKS COLOR =============================== */
+nav.navbar .navbar-nav .nav-link.navbar-link{
+    font-weight: 400;
+    color: rgb(114, 56, 129);
+    letter-spacing: 0.8;
+    padding: 0 25px;
+    font-size: 18px;
+    opacity: 0.75;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link:active{
+    opacity: 1;
+}
+
+/* ========================= BUTTON SWITCH =============================== */
+.switch-light{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color:rgb(224, 224, 224);
+}
+
+.switch-dark{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color:rgb(224, 224, 224);
+}
+
+.on-off{
+    padding-top: 5px;
+}
+
+.on-off button{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(114, 56, 129);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.on-off .switch-dark:hover{
+    color: rgb(97, 242, 245);
+    box-shadow: 0px 0px 30px 1px  rgb(97, 242, 245);
+   
+}
+
+.on-off .switch-light:hover{
+    color: black;
+    box-shadow: 0px 0px 30px 1px rgb(10, 10, 10);
+}
+
+/* ========================= BUTTON CONTACT =============================== */
+.navbar-text{
+    margin-top:5px;
+}
+.navbar-text .button-nb{
+    text-decoration: none;
+    border-radius: 25px;
+    align-items: center;
+    color: rgb(224, 224, 224);
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 18px;
+    position: relative;
+    background-color: rgb(114, 56, 129);
+    transition: 0.3s ease-in-out;
+}
+
+/* .navbar-text button span{
+    z-index: 1;
+} */
+
+/* .navbar-text button::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+} */
+
+.navbar-text .button-nb:hover{
+    color: rgb(97, 242, 245);
+    border-color: rgb(97, 242, 245);
+    box-shadow: 0px 0px 10px 1px rgb(97, 242, 245);
+}
+
+.navbar-text button:hover::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* ========================= BUTTON MENU HAM =============================== */
+.ham{
+    background-color: rgb(114, 56, 129);    
+}
+
+.ham:active,
+.ham:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+}

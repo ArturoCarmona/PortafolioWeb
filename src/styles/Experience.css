@@ -1,0 +1,149 @@
+/*============================= HARD SKILLS ===============================*/
+.skills{
+    padding: 100px 0px 100px 0px;
+    display: felx;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2-hard-light{
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.h2-hard-light:hover{
+    scale:1.3;
+    color: rgb(97, 242, 245);
+}
+
+.h2-hard-dark{
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.h2-hard-dark:hover{
+    scale:1.3;
+    color: rgb(114, 56, 129);
+}
+.h6-hard{
+    margin-top: 10px;
+    margin-left:75px;
+}
+/* ============================ ICONS SKILLS ============================= */
+.img-skills{
+    width: 75px;
+    height: 75px;
+    border-radius: 30px;
+    margin-left: 70px;
+}
+
+.img-skills:hover{
+    box-shadow: 0px 0px 15px 1px rgb(114, 56, 129);
+    scale:1.1;
+    cursor: pointer;
+}
+
+.item-light{
+    width: 75px;
+    height: 75px;
+    border-radius: 30px;
+}
+
+.item-dark{
+    width: 75px;
+    height: 75px;
+    border-radius: 30px;    
+}
+
+/* ============================ BOX SKILLS ============================= */
+.skills-box-light{
+    background-color:rgb(255, 255, 255);
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 5px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.skills-box-dark{
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 5px;
+    box-shadow: 0px 0px 10px 1px rgb(224, 224, 224);
+}
+
+.carousel-skills{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px;
+}
+
+/*============================= INSIGNIA ===============================*/
+.insignia{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:540px) {
+    .img-insignia{width: 150px; height: 150px;}
+}
+
+@media (min-width:541px) {
+    .img-insignia{width: 200px; height: 200px;}
+}
+/*============================= SOFT SKILLS ===============================*/
+.h2-soft-light{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.h2-soft-dark{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.h2-soft-light:hover{
+    color:rgb(97, 242, 245);
+    scale:1.3;
+}
+
+.h2-soft-dark:hover{
+    scale:1.3;
+    color:rgb(114, 56, 129);
+}
+
+.soft-box-light{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.soft-box-dark{
+    background-color: black;
+    font-size: 20px;
+    margin-top: 35px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 1px rgb(224, 224, 224);
+}
+
+.soft-box-dark li:hover{
+    scale: 0.9;
+    background-color: rgb(114, 56, 129);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.soft-box-light li:hover{
+    scale: 0.9;
+    background-color: rgb(97, 242, 245);
+    border-radius: 10px;
+    cursor: pointer;
+}

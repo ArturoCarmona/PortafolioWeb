@@ -1,0 +1,112 @@
+/* ========================== RESPONSIVE SCREEN ======================== */
+@media (max-width: 540px) {
+    .col-options{display:flex; justify-content: center}    
+}
+
+@media (min-width: 541px) {
+    .col-options{display:block; justify-content: center}    
+}
+
+/* ========================== COLAPSE TEXT ======================== */
+.colapse-text-light{
+    color:rgb(114, 56, 129);
+}
+
+.colapse-text-dark{
+    color:rgb(224, 224, 224);
+}
+
+/* ========================== CARDS ======================== */
+.projects{
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+.card-light{
+    /* width: 350px; */
+    width: 270px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 1px rgb(114, 56, 129);
+}
+
+.card-dark{
+    width: 270px;
+    /* height: 300px; */
+    background-color: black;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 1px rgb(224, 224, 224);
+}
+
+.card-light:hover{
+    width: 270px;
+    /* height: 300px; */
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(114, 56, 129);
+}
+
+.card-dark:hover{
+    width: 270px;
+    /* height: 300px; */
+    background-color: black;
+    margin: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+
+.card-img{
+    width: 250px;
+    height: 125px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.card-h4{
+    margin: 15px;
+    cursor: pointer;
+}
+
+.buttons-project{
+    display: flex;
+    justify-content: center;
+}
+
+.button-project-light{
+    width: max-content;
+    height: 40px;
+    background-color: rgb(114, 56, 129);
+    text-decoration: none;
+    border-radius: 35px;
+    border-color: rgb(114, 56, 129);
+    margin: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(114, 56, 129);
+}
+
+.button-project-light:hover{
+    background-color: rgb(114, 56, 129);
+    border-color: rgb(114, 56, 129);
+    transform: scale(1);
+    box-shadow: 0px 0px 16px 1px rgb(114, 56, 129);
+    transition: 0.3s ease-in-out;
+}
+
+.button-project-dark{
+    width: max-content;
+    height: 40px;
+    background-color: rgb(114, 56, 129);
+    text-decoration: none;
+    border-radius: 35px;
+    border-color: rgb(114, 56, 129);
+    margin: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(224, 224, 224);
+}
+
+.button-project-dark:hover{
+    background-color: rgb(114, 56, 129);
+    border-color: rgb(114, 56, 129);
+    transform: scale(1);
+    box-shadow: 0px 0px 16px 1px rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}

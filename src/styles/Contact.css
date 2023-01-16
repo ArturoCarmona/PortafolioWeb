@@ -1,0 +1,125 @@
+.contact{
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+.contact-options{
+    display: grid;
+    justify-content: center;
+}
+
+@media (max-width: 375px) {
+    .contact-option-light{width: 280px}    
+    h5{font-size: 14px;}
+}
+
+@media (max-width: 375px) {
+    .contact-option-dark{width: 280px}    
+    h5{font-size: 14px;}
+}
+
+.contact-option-light{
+    /* width: 380px; */
+    background-color: white;
+    padding: 3px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px black ;
+}
+
+.contact-option-dark{
+    /* width: 380px; */
+    background-color: black;
+    padding: 3px;
+    margin-top: 35px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px white ;
+}
+
+.button-contact-light{
+    width: max-content;
+    height: min-content;
+    height: 40px;
+    background-color: rgb(114, 56, 129);
+    text-decoration: none;
+    border-radius: 35px;
+    border-color: rgb(114, 56, 129);
+    margin: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(114, 56, 129);
+}
+
+.button-contact-light:hover{
+    background-color: rgb(114, 56, 129);
+    border-color: rgb(114, 56, 129);
+    transform: scale(1);
+    box-shadow: 0px 0px 16px 1px rgb(114, 56, 129);
+    transition: 0.3s ease-in-out;
+}
+
+.button-contact-dark{
+    width: max-content;
+    height: min-content;
+    height: 40px;
+    background-color: rgb(114, 56, 129);
+    text-decoration: none;
+    border-radius: 35px;
+    border-color: rgb(114, 56, 129);
+    margin: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+
+.button-contact-dark:hover{
+    background-color: rgb(114, 56, 129);
+    border-color: rgb(114, 56, 129);
+    transform: scale(1);
+    box-shadow: 0px 0px 16px 1px rgb(224, 224, 224);
+    transition: 0.3s ease-in-out;
+}
+
+/* ============================ FORM ================================*/
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    /* box-shadow: 0px 0px 10px 1px rgb(114, 56, 129);
+    border-radius: 15px; */
+}
+
+.button-form-light{
+    width: max-content;
+    height: min-content;
+    height: 40px;
+    background-color: rgb(114, 56, 129);
+    text-decoration: none;
+    border-radius: 35px;
+    border-color: rgb(114, 56, 129);
+    margin: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(114, 56, 129);
+}
+
+.button-form-light:hover{
+    background-color: rgb(114, 56, 129);
+    border-color: rgb(114, 56, 129);
+    transform: scale(1);
+    box-shadow: 0px 0px 16px 1px rgb(114, 56, 129);
+    transition: 0.3s ease-in-out;
+}
+
+.button-form-dark{
+    background-color: rgb(114, 56, 129);
+    text-decoration: none;
+    border-radius: 35px;
+    border-color: rgb(114, 56, 129);
+    margin: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+
+.button-form-dark:hover{
+    background-color: rgb(114, 56, 129);
+    border-color: rgb(114, 56, 129);
+    transform: scale(1);
+    box-shadow: 0px 0px 16px 1px rgb(224, 224, 224);
+    transition: 0.3s ease-in-out;
+}

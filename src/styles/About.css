@@ -1,0 +1,175 @@
+.banner{
+    margin-top: 0;
+    padding: 200px 0 100px 0;
+}
+
+.banner h1{
+    font-size: 65px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+}
+
+.banner p{
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+/* ========================= BUTTON CV =============================== */
+.buttons-about{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.about-text{
+    text-align: center;
+}
+
+.a-about-light{
+    background-color: rgb(114, 56, 129);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: max-content;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor:pointer;
+    box-shadow: 0px 0px 10px 1px rgb(114, 56, 129);
+}
+
+.a-about-light:hover{
+    scale:1.1;
+}
+
+.a-about-dark{
+    background-color: rgb(114, 56, 129);
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    width: max-content;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor:pointer;
+    box-shadow: 0px 0px 10px 1px rgb(224, 224, 224);
+}
+
+.a-about-dark:hover{
+    scale:1.1;
+}
+
+.banner .a-about-light:hover{
+    color: rgb(97, 242, 245);
+    box-shadow: 0px 0px 20px 1px rgb(114, 56, 129);
+    transition: 0.3s ease-in-out;
+}
+
+.banner .a-about-dark:hover{
+    color: rgb(97, 242, 245);
+    box-shadow: 0px 0px 20px 1px rgb(224, 224, 224);
+    transition: 0.3s ease-in-out;
+}
+
+/* =========================ANIMATIONS=============================== */
+
+.align-img{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.banner img{
+    width: 300px;
+    height: 300px;
+    animation: updown 3s linear infinite;
+}
+
+@keyframes updown{
+    0%{
+        transform: translateY(-20px);
+    }
+    25%{
+        transform: translateX(+20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    75%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+/* =========================SOCIAL ICONS=============================== */
+.about-social-icon-light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding-top: 10px;
+}
+
+.about-social-icon-dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding-top: 10px;
+}
+
+.social-icon{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.about-social-icon-light a{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(114, 56, 129);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    box-shadow: 0px 0px 10px 1px rgb(114, 56, 129);
+}
+
+.about-social-icon-dark a{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(114, 56, 129);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
+
+/* .about-social-icon a::before{
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: rgb(234, 231, 175);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+} */
+
+.about-social-icon-light a:hover{
+    transform: scale(1);
+    box-shadow: 0px 0px 20px 1px rgb(114, 56, 129);
+    transition: 0.3s ease-in-out;
+}
+
+.about-social-icon-dark a:hover{
+    transform: scale(1);
+    box-shadow: 0px 0px 16px 1px rgb(224, 224, 224);
+    transition: 0.3s ease-in-out;
+}
