@@ -1,10 +1,12 @@
 import React , {useRef} from "react";
-import {motion} from 'framer-motion';
 import "../styles/Contact.css";
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 import {useTheme} from './Themes';
 import emailjs from 'emailjs-com';
-import {FaEnvelope, FaFacebook, FaWhatsapp} from "react-icons/fa";
+import Facebook from '../assets/img/facebook.png';
+import Linkedin from '../assets/img/linkedin.png';
+import Github from '../assets/img/github.png';
+import Instagram from '../assets/img/instagram.png';
 
 const Contact = () =>{
     const {theme} = useTheme();
@@ -29,31 +31,20 @@ const Contact = () =>{
             <Container>
                 <h1>Contactame</h1>
                 <Row>
-                    <Col className="contact-options" md={6}>
-                        <div className={`contact-option-${theme}`}>
-                            <motion.div animate={{rotate:90}} transition={{duration:2, repeat: Infinity, repeatType:"reverse"}} className="icon-contact">
-                                <FaEnvelope></FaEnvelope>
-                            </motion.div>
-                            <h3>Email</h3>
-                            <h5>gabriel.arturoguzmanc@gmail.com</h5>
-                            <Button className={`button-contact-${theme}`} href="mailto:gabriel.arturoguzmanc@gmail.com" target={"_blank"} rel="noreferrer">Enviar mensaje</Button>
+                    <Col md={6}>
+                        <div className="contact-options">
+                            <Col>
+                            <a href="https://m.me/gabriel.arturo.52" target={"_blank"} rel="noreferrer"><img className={`icons-contact-${theme}`} src={Facebook} alt="facebook"></img></a>
+                            <a href="https://github.com/ArturoCarmona" target={"_blank"} rel="noreferrer"><img className={`icons-contact-${theme}`} src={Github} alt="github"></img></a>
+                            </Col>
+                            <Col>
+                            <a href="https://www.linkedin.com/in/garturogc/" target={"_blank"} rel="noreferrer"><img className={`icons-contact-${theme}`} src={Linkedin} alt="linkedin"></img></a>
+                            <a href="https://www.instagram.com/gaboturo/" target={"_blank"} rel="noreferrer"><img className={`icons-contact-${theme}`} src={Instagram} alt="instagram"></img></a>
+                            </Col>
                         </div>
-                        <div className={`contact-option-${theme}`}>
-                            <motion.div animate={{rotate:90}} transition={{duration:2, repeat: Infinity, repeatType:"reverse"}} className="icon-contact">
-                                <FaFacebook className="icon-contact"></FaFacebook>
-                            </motion.div>
-                            <h3>Messenger</h3>
-                            <h5>Gabriel Arturo</h5>
-                            <Button className={`button-contact-${theme}`} href="https://m.me/gabriel.arturo.52" target={"_blank"} rel="noreferrer">Enviar mensaje</Button>
-                        </div>
-                        <div className={`contact-option-${theme}`}>
-                            <motion.div animate={{rotate:90}} transition={{duration:2, repeat: Infinity, repeatType:"reverse"}} className="icon-contact">
-                                <FaWhatsapp className="icon-contact"></FaWhatsapp>
-                            </motion.div>
-                            <h3>WhatsApp</h3>
-                            <h5>(+52) 55 ...</h5>
-                            <Button className={`button-contact-${theme}`} href="https://api.whatsapp.com/send?phone=+525529479308" target={"_blank"} rel="noreferrer">Enviar mensaje</Button>
-                        </div>
+                        
+                        
+                        
                     </Col>
                     <Col md={6}>
                         <div className="form">

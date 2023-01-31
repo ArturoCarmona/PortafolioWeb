@@ -13,6 +13,8 @@ import BootIco from '../assets/img/bootstrap.png';
 import VSIco from '../assets/img/visual-studio.png';
 import GitIco from '../assets/img/git-logo.png';
 import ImgSkills from './ImgSkills';
+import MySQL from '../assets/img/mysql.png';
+import Spring from '../assets/img/spring.png';
 import 'react-multi-carousel/lib/styles.css';
 import "../styles/Experience.css";
 
@@ -82,6 +84,14 @@ const Experience = () =>{
                                 </motion.div>
                                 <motion.div className={`item-${theme}`} >
                                     <img src={GitIco} alt="icon" className="img-skills"></img>
+                                    <h6 className="h6-hard">Intermedio</h6>
+                                </motion.div>
+                                <motion.div className={`item-${theme}`} >
+                                    <img src={MySQL} alt="icon" className="img-skills"></img>
+                                    <h6 className="h6-hard">Intermedio</h6>
+                                </motion.div>
+                                <motion.div className={`item-${theme}`} >
+                                    <img src={Spring} alt="icon" className="img-skills"></img>
                                     <h6 className="h6-hard">Intermedio</h6>
                                 </motion.div>
                             </Carousel>
