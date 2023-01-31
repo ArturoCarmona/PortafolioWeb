@@ -19,10 +19,8 @@ const About = () =>{
                     <h1>Arturo</h1>
                     <h5>Desarrollador Java Full Stack</h5>
                     <h5>Ingeniero Geofísico</h5>
-                    <p>El haberme formado como Ingeniero Geofisíco me ayudo a</p>
-                    <p>fortalecer mi razonamiento lógico y adquirir habilidades para resolución de problemas.</p>
-                    <p>Mismas que me han permitido formarme como Desarrollador Java y seguir preparandome</p>
-                    <p>para afrontar cada reto con la mayor preparación.</p>
+                    <p>El haberme formado como Ingeniero Geofisíco me ayudo a fortalecer mi razonamiento lógico y adquirir habilidades para resolución de problemas. Mismas que me han permitido formarme como Desarrollador Java y seguir preparandome para afrontar cada reto con la mayor preparación.</p>
+                    
                     <div className="buttons-about">
                         <a href={CV} download="CV" className={`a-about-${theme}`}>
                                 CV   <FaDownload size={25}></FaDownload>
