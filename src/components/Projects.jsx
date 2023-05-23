@@ -141,7 +141,7 @@ const Projects = () => {
               <h4 className="card-h4" onClick={() => setOpen4(!open4)}>
                 Proyecto USGS Earthquake Catalog
               </h4>
-              <Collapse in={open3}>
+              <Collapse in={open4}>
                 <div className={`colapse-text-${theme}`}>
                   Implementación de un catálogo de terremotos utilizando la API
                   de la USGS, junto con la API de ArcGIS para visualizar los
